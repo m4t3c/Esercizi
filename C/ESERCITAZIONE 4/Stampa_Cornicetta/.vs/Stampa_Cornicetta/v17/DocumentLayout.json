@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5919DCBA-2B8A-401C-A571-59DAF8C2C4AF}|Stampa_Cornicetta.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5919DCBA-2B8A-401C-A571-59DAF8C2C4AF}|Stampa_Cornicetta.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5919DCBA-2B8A-401C-A571-59DAF8C2C4AF}|Stampa_Cornicetta.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\cornicetta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5919DCBA-2B8A-401C-A571-59DAF8C2C4AF}|Stampa_Cornicetta.vcxproj|solutionrelative:cornicetta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cornicetta.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\cornicetta.c",
+              "RelativeDocumentMoniker": "cornicetta.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\cornicetta.c",
+              "RelativeToolTip": "cornicetta.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-16T12:46:46.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\C\\ESERCITAZIONE 4\\Stampa_Cornicetta\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-16T12:46:39.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
