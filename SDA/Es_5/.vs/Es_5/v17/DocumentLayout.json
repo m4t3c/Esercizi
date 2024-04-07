@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11CCCCAF-B4C0-489E-811A-0FD3C62F6E78}|Es_5.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\conta_occorrenze.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11CCCCAF-B4C0-489E-811A-0FD3C62F6E78}|Es_5.vcxproj|solutionrelative:conta_occorrenze.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11CCCCAF-B4C0-489E-811A-0FD3C62F6E78}|Es_5.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{11CCCCAF-B4C0-489E-811A-0FD3C62F6E78}|Es_5.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "conta_occorrenze.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\conta_occorrenze.c",
+              "RelativeDocumentMoniker": "conta_occorrenze.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\conta_occorrenze.c",
+              "RelativeToolTip": "conta_occorrenze.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-02T08:58:05.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Es_5\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-02T08:57:57.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

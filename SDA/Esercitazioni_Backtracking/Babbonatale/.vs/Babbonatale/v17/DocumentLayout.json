@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CACEAE-7013-4F5A-B275-8DC3E6BD42DC}|Babbonatale.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0CACEAE-7013-4F5A-B275-8DC3E6BD42DC}|Babbonatale.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CACEAE-7013-4F5A-B275-8DC3E6BD42DC}|Babbonatale.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\babbonatale.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D0CACEAE-7013-4F5A-B275-8DC3E6BD42DC}|Babbonatale.vcxproj|solutionrelative:babbonatale.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "babbonatale.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\babbonatale.c",
+              "RelativeDocumentMoniker": "babbonatale.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\babbonatale.c",
+              "RelativeToolTip": "babbonatale.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-16T09:04:19.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\SDA\\Esercitazioni_Backtracking\\Babbonatale\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-16T09:04:14.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
