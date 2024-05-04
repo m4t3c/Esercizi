@@ -1,41 +1,58 @@
 #include "torrecartoni.h"
 
-void TorreCartoniRec(int n, const Cartone* c, int i, Torre* vcurr, Torre* vbest, bool* usati) {
-	if (vcurr->a > vbest->a) {
-		vbest->a = vcurr->a;
-		vbest->peso = vcurr->peso;
-		memcpy(vbest->c_ids, vcurr->c_ids, vcurr->c_size * sizeof(int)); //se lo metto dentro il caso base perdo tutte le sol ottime
-	}
-
-	if (i == n) {
-		return;
-	}
-
+void TorreCartoniRec(const Cartone* c, size_t n, int i, unsigned altezza, unsigned* altezza_max, unsigned peso, int cnt, int* cnt_max, int* vcurr, int* vbest, int* pacchi_presi) {
 	for (int j = 0; j < n; ++j) {
-		if (!usati[j] && c[j].l >= vcurr->peso) {
-			vcurr->a += c[j].a;
-			vcurr->peso += c[j].p;
-			vcurr->c_ids[vcurr->c_size] = j; //aggiorno vcurr con il cartone che ho preso che ha indirizzo j
-			vcurr->c_size++;
-			usati[j] = 1;
-			TorreCartoniRec(n, c, i + 1, vcurr, vbest, usati);
+		if (pacchi_presi[j] == 0 && peso <= c[j].l) {
+			vcurr[i] = j;
+			pacchi_presi[j] = 1;
+			altezza += c[j].a;
+			peso += c[j].p;
+			++cnt;
 
-			vcurr->a -= c[j].a;
-			vcurr->peso -= c[j].p;
-			vcurr->c_size--;
-			usati[j] = 1;
-		}
+			if (altezza > *altezza_max) {
+				*altezza_max = altezza;
+				*cnt_max = cnt;
+				memcpy(vbest, vcurr, n * sizeof(int));
+			}
 
+			if (i < (int)(n - 1)) {
+				TorreCartoniRec(c, n, i + 1, altezza, altezza_max, peso, cnt, cnt_max, vcurr, vbest, pacchi_presi);
+			}
+
+			pacchi_presi[j] = 0;
+			altezza -= c[j].a;
+			peso -= c[j].p;
+			--cnt;
+
+		}	
 	}
 }
 
 void TorreCartoni(const Cartone* c, size_t n) {
-	bool* usati = calloc(n, sizeof(bool));
-	Torre vcurr = { .a = 0, .c_ids = malloc(n * sizeof(int)), .c_size = 0, .peso = 0 };
-	Torre vbest = { .a = 0, .c_ids = malloc(n * sizeof(int)), .c_size = 0, .peso = 0 };
+	if (c == NULL || n <= 0) {
+		return;
+	}
 
-	TorreCartoniRec((int)n, c, 0, &vcurr, &vbest, usati);
+	int i = 0;
+	unsigned altezza = 0;
+	unsigned altezza_max = 0;
+	unsigned peso = 0;
+	int cnt = 0;
+	int cnt_max = 0;
+	int* vcurr = calloc(n, sizeof(int));
+	int* vbest = calloc(n, sizeof(int));
+	int* pacchi_presi = calloc(n, sizeof(int));
 
+	TorreCartoniRec(c, n, i, altezza, &altezza_max, peso, cnt, &cnt_max, vcurr, vbest, pacchi_presi);
 
+	for (int j = 0; j < cnt_max; ++j) {
+		printf("%d\n", vbest[j]);
+	}
+
+	printf("Altezza %d cm", altezza_max);
+
+	free(vcurr);
+	free(vbest);
+	free(pacchi_presi);
 
 }
