@@ -1,4 +1,2 @@
 ﻿  subset.c
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Prove\SubsetK_1\subset.c(20,6): warning C4013: 'prinf' undefined; assuming extern returning int
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Prove\SubsetK_1\subset.c(33,1): warning C4717: 'SubsetKRec': recursive on all control paths, function will cause runtime stack overflow
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Prove\SubsetK_1\subset.c(11,1): error C4700: uninitialized local variable 'cnt' used
+  SubsetK_1.vcxproj -> C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Prove\SubsetK_1\x64\Debug\SubsetK_1.exe

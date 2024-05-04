@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|solutionrelative:elemtype_int\\elemtype.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9611EEF9-AF41-49AD-8C79-C9A8CA53F985}|Vector_Read.vcxproj|solutionrelative:elemtype_int\\elemtype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "elemtype.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.h",
+              "RelativeDocumentMoniker": "elemtype_int\\elemtype.h",
+              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.h",
+              "RelativeToolTip": "elemtype_int\\elemtype.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-12T09:09:11.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "elemtype.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.c",
+              "RelativeDocumentMoniker": "elemtype_int\\elemtype.c",
+              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\elemtype_int\\elemtype.c",
+              "RelativeToolTip": "elemtype_int\\elemtype.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-12T09:09:07.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Ordinamento_Elemtype\\Vector_Read\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-12T09:06:44.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
