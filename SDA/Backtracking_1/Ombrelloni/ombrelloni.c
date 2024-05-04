@@ -14,6 +14,8 @@ static void OmbrelloniRec(int k, int n, int i, bool* vcurr, int cnt, int* nsol) 
 			printf(" 0");
 		}
 		printf("\n");
+
+		return;
 	}
 	if (i == n) {
 		return; 
@@ -34,7 +36,7 @@ int Ombrelloni(int k, int n) {
 		return 0;
 	}
 	
-	bool* vcurr = malloc(n * sizeof(bool));
+	bool* vcurr = calloc(n, sizeof(bool));
 	int nsol = 0;
 	int cnt = 0;
 	OmbrelloniRec(k, n, 0, vcurr, cnt, &nsol);
