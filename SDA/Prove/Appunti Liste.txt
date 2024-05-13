@@ -1,0 +1,16 @@
+per includere elemtype da olj:
+1.	unzippa
+2.	metti in cartella del progetto
+3.	trascina su visual studio.
+
+Una lista è un insieme di valori sparsi in memoria che deve avere 2 elementi:
+1.	un valore di qualsiasi tipo
+2.	puntatore a next (l'elemento successivo)
+
+Iterando nella lista si perde il riferimento alla testa quindi bisogna tenerlo
+
+Ci sono due funzioni primitive per inserire elementi in una lista:
+1.	ListInsertHead che inserisce nella testa della lista e ne restituisce il puntatore
+2.	ListInsertBack inserisce l'elemento in coda; prende i parametri in ordine opposto della ListInsertHead,
+	restituisce il puntatore alla testa della lista perchè devo poter inserire un elemento anche in una lista
+	vuota.
