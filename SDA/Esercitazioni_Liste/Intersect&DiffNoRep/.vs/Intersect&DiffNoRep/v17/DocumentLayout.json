@@ -1,23 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\",
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Diff\\diff.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\\intersect.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
               "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwBoAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-13T07:56:07.551Z",
               "IsPinned": true,
@@ -46,65 +36,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "list.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\list.c",
-              "RelativeDocumentMoniker": "list.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\list.c",
-              "RelativeToolTip": "list.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T08:37:20.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "intersect.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\\intersect.c",
-              "RelativeDocumentMoniker": "..\\Intersect\\intersect.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\\intersect.c",
-              "RelativeToolTip": "..\\Intersect\\intersect.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T08:29:08.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "diff.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Diff\\diff.c",
-              "RelativeDocumentMoniker": "..\\Diff\\diff.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Diff\\diff.c",
-              "RelativeToolTip": "..\\Diff\\diff.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T08:22:01.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "no_rep.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
               "RelativeDocumentMoniker": "no_rep.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
               "RelativeToolTip": "no_rep.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwCsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-13T07:56:21.205Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1081,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

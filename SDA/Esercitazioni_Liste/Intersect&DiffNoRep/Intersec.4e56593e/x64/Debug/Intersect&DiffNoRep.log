@@ -1,4 +1,2 @@
 ﻿  no_rep.c
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Liste\Intersect&DiffNoRep\no_rep.c(15,1): warning C4716: 'IntersectNoRep': must return a value
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Liste\Intersect&DiffNoRep\no_rep.c(18,1): warning C4716: 'DiffNoRep': must return a value
-  Intersect&DiffNoRep.vcxproj -> C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Liste\Intersect&DiffNoRep\x64\Debug\Intersect&DiffNoRep.exe
+  Intersect&DiffNoRep.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Liste\Intersect&DiffNoRep\x64\Debug\Intersect&DiffNoRep.exe
