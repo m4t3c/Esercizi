@@ -18,12 +18,18 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="elemtype_int\elemtype.c">
+    <ClCompile Include="elemtype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vettore.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="elemtype_int\elemtype.h">
+    <ClInclude Include="elemtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vettore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\",
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|solutionrelative:insert.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|solutionrelative:tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5269964F-4EF4-4591-B2CC-42440C872110}|Insert_BST.vcxproj|solutionrelative:elemtype.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -26,28 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "insert.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c",
               "RelativeDocumentMoniker": "insert.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\insert.c",
               "RelativeToolTip": "insert.c",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-24T08:23:32.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "tree.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h",
               "RelativeDocumentMoniker": "tree.h",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\tree.h",
               "RelativeToolTip": "tree.h",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAFoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -58,37 +58,26 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "elemtype.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h",
               "RelativeDocumentMoniker": "elemtype.h",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\elemtype.h",
               "RelativeToolTip": "elemtype.h",
               "ViewState": "AQIAAGYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-24T08:04:41.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T08:04:41.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c",
               "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Insert_BST\\main.c",
               "RelativeToolTip": "main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-24T07:58:26.179Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1081,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

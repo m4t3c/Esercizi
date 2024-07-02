@@ -1,0 +1,9 @@
+﻿  vettore.c
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(7,26): warning C4047: 'function': 'const ElemType *' differs in levels of indirection from 'ElemType'
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(7,26): warning C4024: 'ElemCompare': different types for formal and actual parameter 1
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(7,38): warning C4047: 'function': 'const ElemType *' differs in levels of indirection from 'ElemType'
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(7,38): warning C4024: 'ElemCompare': different types for formal and actual parameter 2
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(12,20): warning C4047: 'function': 'ElemType *' differs in levels of indirection from 'ElemType'
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(12,20): warning C4024: 'ElemSwap': different types for formal and actual parameter 1
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(12,32): warning C4047: 'function': 'ElemType *' differs in levels of indirection from 'ElemType'
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Ordinamento_Elemtype\VectorSort\vettore.c(12,32): warning C4024: 'ElemSwap': different types for formal and actual parameter 2

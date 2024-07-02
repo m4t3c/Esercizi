@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="elemtype_int\elemtype.c" />
+    <ClCompile Include="elemtype.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="vettore.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="elemtype_int\elemtype.h" />
+    <ClInclude Include="elemtype.h" />
+    <ClInclude Include="vettore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

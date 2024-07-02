@@ -1,8 +1,4 @@
 ﻿  dominant.c
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(3,38): error C2059: syntax error: ')'
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(5,1): error C2143: syntax error: missing ')' before 'type'
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(5,12): error C2085: 'CountDominant': not in formal parameter list
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(5,41): error C2143: syntax error: missing ';' before '{'
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(14,2): error C2198: 'CountDominantRec': too few arguments for call
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(15,1): error C2143: syntax error: missing ';' before '}'
-C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(12,8): warning C4090: 'initializing': different 'const' qualifiers
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(6,43): warning C4047: 'function': 'const ElemType *' differs in levels of indirection from 'const ElemType'
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(6,43): warning C4024: 'ElemCompare': different types for formal and actual parameter 2
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(9,1): warning C4716: 'CountDominantRec': must return a value

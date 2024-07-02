@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\",
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|solutionrelative:dominant.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{03D24E07-CB51-4204-8B0C-25FB90442084}|Dominant.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "dominant.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c",
               "RelativeDocumentMoniker": "dominant.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\dominant.c",
               "RelativeToolTip": "dominant.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-24T11:51:19.053Z",
               "EditorCaption": ""
@@ -37,24 +37,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c",
               "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\Administrator\\OneDrive\\Desktop\\Universit\u00E0\\Programmi\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Alberi\\Dominant\\main.c",
               "RelativeToolTip": "main.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-24T11:51:08.921Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1081,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
