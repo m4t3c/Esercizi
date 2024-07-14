@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopiaMatrice", "CopiaMatrice.vcxproj", "{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Debug|x64.ActiveCfg = Debug|x64
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Debug|x64.Build.0 = Debug|x64
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Debug|x86.Build.0 = Debug|Win32
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Release|x64.ActiveCfg = Release|x64
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Release|x64.Build.0 = Release|x64
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Release|x86.ActiveCfg = Release|Win32
+		{6BDBC318-9DBD-45DE-A2A2-754CB10771FB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C69B70F-2F2E-4C56-82B6-0E86D086697C}
+	EndGlobalSection
+EndGlobal

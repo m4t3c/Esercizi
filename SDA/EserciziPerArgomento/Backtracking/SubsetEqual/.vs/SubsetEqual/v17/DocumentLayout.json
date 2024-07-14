@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3422988E-E7A6-4C3F-ADA3-1218CED77B64}|SubsetEqual.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3422988E-E7A6-4C3F-ADA3-1218CED77B64}|SubsetEqual.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3422988E-E7A6-4C3F-ADA3-1218CED77B64}|SubsetEqual.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\subset_equal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3422988E-E7A6-4C3F-ADA3-1218CED77B64}|SubsetEqual.vcxproj|solutionrelative:subset_equal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "subset_equal.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\subset_equal.c",
+              "RelativeDocumentMoniker": "subset_equal.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\subset_equal.c",
+              "RelativeToolTip": "subset_equal.c",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-07T10:16:46.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\EserciziPerArgomento\\Backtracking\\SubsetEqual\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-07T10:16:18.749Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
