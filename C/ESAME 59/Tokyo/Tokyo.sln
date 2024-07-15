@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tokyo", "Tokyo.vcxproj", "{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Debug|x64.ActiveCfg = Debug|x64
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Debug|x64.Build.0 = Debug|x64
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Debug|x86.Build.0 = Debug|Win32
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Release|x64.ActiveCfg = Release|x64
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Release|x64.Build.0 = Release|x64
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Release|x86.ActiveCfg = Release|Win32
+		{71C393A2-EF00-40EF-BEEF-1D3074AEFAF6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06AA82A9-CA1E-484A-8660-A1949FA08622}
+	EndGlobalSection
+EndGlobal
