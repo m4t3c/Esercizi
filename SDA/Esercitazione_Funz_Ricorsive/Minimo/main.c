@@ -1,9 +1,9 @@
-extern int Minimo(const int* v, int v_size);
+int Minimo(const int* v, int v_size);
 
 int main(void) {
-	int v[] = { 9, 34, 5, 1, 3, 2, 666 }; // 1
-	int m;
-	m = Minimo(v, 7);
+
+	int v[] = { 3, 566, 1, 66, 32, 12 };
+	int res = Minimo(v, 6);
 
 	return 0;
 }

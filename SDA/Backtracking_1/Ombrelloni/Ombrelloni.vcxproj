@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ff0a1b2f-c782-4f72-aee5-5ee7bf3c22dd}</ProjectGuid>
+    <ProjectGuid>{5e7e479a-253f-489d-82ed-e7f955f79333}</ProjectGuid>
     <RootNamespace>Ombrelloni</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

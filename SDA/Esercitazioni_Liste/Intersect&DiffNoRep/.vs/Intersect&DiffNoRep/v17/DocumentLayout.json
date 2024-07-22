@@ -3,48 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1223173-68E4-4D29-B4ED-5301C942CCEA}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1223173-68E4-4D29-B4ED-5301C942CCEA}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4E56593E-2210-441F-8298-B9B8349DB386}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B1223173-68E4-4D29-B4ED-5301C942CCEA}|Intersect\u0026DiffNoRep.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1223173-68E4-4D29-B4ED-5301C942CCEA}|Intersect\u0026DiffNoRep.vcxproj|solutionrelative:no_rep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 228,
           "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
-              "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
-              "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T07:56:07.551Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "no_rep.c",
               "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
               "RelativeDocumentMoniker": "no_rep.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\no_rep.c",
               "RelativeToolTip": "no_rep.c",
-              "ViewState": "AQIAABgAAAAAAAAAAAAQwCsAAAAHAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAjwC8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-13T07:56:21.205Z",
+              "WhenOpened": "2024-07-18T11:40:34.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Intersect\u0026DiffNoRep\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-18T11:39:32.483Z",
               "EditorCaption": ""
             }
           ]

@@ -3,18 +3,21 @@
 extern bool HeapMinPop(Heap* h, ElemType* e);
 
 int main(void) {
-	ElemType vec[] = { 2, 4, 5, 6, 76, 11, 16, 3, 7, 12 };
+
+	ElemType arr[] = { 9, 1, 4, 10, 0, 2, 3, 7, 8 };
+	size_t size = sizeof(arr) / sizeof(arr[0]);
+
 	Heap* h = HeapCreateEmpty();
-	for (size_t i = 0; i < 10; ++i) {
-		HeapMinInsertNode(h, &vec[i]);
+	for (size_t i = 0; i < size; ++i) {
+		HeapMinInsertNode(h, arr + i);
 	}
 	HeapWriteStdout(h);
 
-	ElemType e = 0;
+	ElemType e = 33;
 
-	bool r = HeapMinPop(h, &e);
-	HeapWriteStdout(h);
+	bool res = HeapMinPop(h, &e);
+
+	HeapDelete(h);
 
 	return 0;
-
 }

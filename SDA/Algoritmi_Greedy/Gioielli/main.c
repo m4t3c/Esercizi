@@ -1,9 +1,9 @@
 #include "gioielli.h"
 
 int main(void) {
-	
+
 	size_t ret_size = 0;
-	Gioiello *r = CompraGioielli("gioielli_1.txt", 121, &ret_size);
-	
+	Gioiello* res = CompraGioielli("gioielli_1.txt", 121, &ret_size);
+
 	return 0;
 }

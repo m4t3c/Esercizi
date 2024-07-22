@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8ba031dd-84a3-47a7-9f31-d1e5fa03786c}</ProjectGuid>
+    <ProjectGuid>{57df12c2-245d-4b27-ad0e-0abb8083b7d2}</ProjectGuid>
     <RootNamespace>Gioielli</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

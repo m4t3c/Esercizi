@@ -1,8 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-static void OmbrelloniRec(int k, int n, int i, bool* vcurr, int cnt, int* nsol) {
+void OmbrelloniRec(int k, int n, int i, bool* vcurr, int cnt, int* nsol) {
 
 	if (cnt == k) {
 		(*nsol)++;
@@ -10,36 +10,36 @@ static void OmbrelloniRec(int k, int n, int i, bool* vcurr, int cnt, int* nsol) 
 		for (int j = 0; j < i; ++j) {
 			printf(" %d", vcurr[j]);
 		}
+
 		for (int l = i; l < n; ++l) {
 			printf(" 0");
 		}
 		printf("\n");
-
 		return;
 	}
 	if (i == n) {
-		return; 
+		return;
 	}
 
 	vcurr[i] = 0;
 	OmbrelloniRec(k, n, i + 1, vcurr, cnt, nsol);
 
-	if (!vcurr[i - 1]|| i == 0) {
+	if (i == 0 || !vcurr[i - 1]) {
 		vcurr[i] = 1;
-		OmbrelloniRec(k, n, i + 1, vcurr, cnt + 1, nsol); 
+		OmbrelloniRec(k, n, i + 1, vcurr, cnt + 1, nsol);
 	}
-	
 }
 
 int Ombrelloni(int k, int n) {
+
 	if (k < 0 || n < 0) {
 		return 0;
 	}
-	
-	bool* vcurr = calloc(n, sizeof(bool));
+
+	bool* vcurr = malloc(n * sizeof(bool));
 	int nsol = 0;
-	int cnt = 0;
-	OmbrelloniRec(k, n, 0, vcurr, cnt, &nsol);
+
+	OmbrelloniRec(k, n, 0, vcurr, 0, &nsol);
 	free(vcurr);
 
 	return nsol;

@@ -1,9 +1,6 @@
 #if !defined GIOIELLI_H
-#define GIOIELLI_H
 
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdlib.h>
-#include <stdio.h>
 
 typedef struct {
     int codice;

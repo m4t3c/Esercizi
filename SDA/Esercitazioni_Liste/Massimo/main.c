@@ -1,25 +1,15 @@
 #include "list.h"
-#include <stdlib.h>
 
-extern const ElemType* MaxElement(const Item* i);
-
-Item *ListCreateFromVector(const ElemType* vec, size_t size) {
-	Item* res = ListCreateEmpty();
-	for (size_t i = 0; i < size; ++i) {
-		res = ListInsertBack(res, &vec[i]);
-	}
-
-	return res;
-}
+const ElemType* MaxElement(const Item* i);
 
 int main(void) {
 
-	ElemType vec[] = { 3, 6, 77, 4, 3, 234, 8 };
-	size_t size = sizeof(vec) / sizeof(ElemType);
-	Item* l = ListCreateFromVector(vec, size);
-
-	const ElemType* r = MaxElement(l);
-	ElemWriteStdout(r);
+	ElemType v[] = { 1, 45, 0, 2, 4, 1, 3 };
+	Item* i = ListCreateEmpty();
+	for (size_t j = 0; j < 7; ++j) {
+		i = ListInsertBack(i, &v[j]);
+	}
+	const ElemType* res = MaxElement(i);
 
 	return 0;
 }

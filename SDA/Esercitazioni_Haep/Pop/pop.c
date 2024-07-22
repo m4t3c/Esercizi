@@ -1,20 +1,17 @@
 #include "minheap.h"
 #include <stdlib.h>
-#include <string.h>
 
 bool HeapMinPop(Heap* h, ElemType* e) {
-
+	
 	if (HeapIsEmpty(h)) {
 		return false;
 	}
-	
-	*e = *HeapGetNodeValue(h, 0);
+
+	*e = h->data[0];
 
 	ElemSwap(HeapGetNodeValue(h, 0), HeapGetNodeValue(h, (int)h->size - 1));
-	--h->size;
+	h->size--;
 	h->data = realloc(h->data, h->size * sizeof(ElemType));
-
 	HeapMinMoveDown(h, 0);
-
 	return true;
 }

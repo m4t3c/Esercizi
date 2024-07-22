@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fb57ce3f-cb11-4c7a-b79b-3fe9d88848af}</ProjectGuid>
+    <ProjectGuid>{7542cb47-1ad1-4e0a-a9e1-7966d5228f48}</ProjectGuid>
     <RootNamespace>Babbonatale</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

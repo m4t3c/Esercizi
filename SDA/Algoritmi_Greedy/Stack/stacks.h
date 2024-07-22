@@ -1,4 +1,4 @@
-#ifndef STACKS_H
+#if !defined STACKS_H
 
 #define STACKS_H
 
@@ -11,4 +11,4 @@ typedef struct {
 
 extern unsigned MaxSumNStack(Stack* stacks, size_t n);
 
-#endif // STACK_H
+#endif /*STACK_H*/

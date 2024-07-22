@@ -2,7 +2,7 @@
 
 void HeapMinMoveUpRec(Heap* h, int i) {
 
-	if (ElemCompare(HeapGetNodeValue(h, i), HeapGetNodeValue(h, HeapParent(i))) > 0) {
+	if (i == 0 || ElemCompare(HeapGetNodeValue(h, HeapParent(i)), HeapGetNodeValue(h, i)) <= 0) {
 		return;
 	}
 

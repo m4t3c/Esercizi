@@ -1,14 +1,11 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include <stdbool.h>
 
 extern void BabboNatale(const int* pacchi, size_t pacchi_size, int p);
 
 int main(void) {
-	int pacchi[5] = {10, 11, 1, 3, 3};
-	size_t pacchi_size = 5;
-	int p = 20;
-	BabboNatale(pacchi, pacchi_size, p);
+
+	int pacchi[] = {10, 11, 1, 3, 3};
+	BabboNatale(pacchi, 5, 20);
 
 	return 0;
 }

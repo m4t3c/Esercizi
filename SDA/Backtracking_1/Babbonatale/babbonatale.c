@@ -9,49 +9,42 @@ void BabboNataleRec(const int* pacchi, size_t pacchi_size, int p, unsigned int i
 		if (sum > p) {
 			return;
 		}
-		if (cnt > *max) {
-			*max = cnt;
-			memcpy(vbest, vcurr, pacchi_size * sizeof(bool));
+		else
+		{
+			if (cnt > *max) {
+				*max = cnt;
+				memcpy(vbest, vcurr, pacchi_size * sizeof(bool));
+			}
 		}
 		return;
 	}
 
 	vcurr[i] = 0;
 	BabboNataleRec(pacchi, pacchi_size, p, i + 1, vcurr, vbest, max, cnt, sum);
-
-	vcurr[i] = 1;
-	BabboNataleRec(pacchi, pacchi_size, p, i + 1, vcurr, vbest, max, cnt + 1, sum + pacchi[i]);
+	if (sum + pacchi[i] < p) {
+		vcurr[i] = 1;
+		BabboNataleRec(pacchi, pacchi_size, p, i + 1, vcurr, vbest, max, cnt + 1, sum + pacchi[i]);
+	}
 
 }
 
 void BabboNatale(const int* pacchi, size_t pacchi_size, int p) {
 	bool* vcurr = malloc(pacchi_size * sizeof(bool));
 	bool* vbest = malloc(pacchi_size * sizeof(bool));
-	unsigned int i = 0;
 	int max = 0;
-	int cnt = 0;
-	int sum = 0;
 
-	BabboNataleRec(pacchi, pacchi_size, p, i, vcurr, vbest, &max, cnt, sum);
+	BabboNataleRec(pacchi, pacchi_size, p, 0, vcurr, vbest, &max, 0, 0);
 
-	free(vcurr);
-
-	for (unsigned int j = 0; j < pacchi_size - 1; ++j) {
-		if (vbest[j]) {
+	for (size_t i = 0; i < pacchi_size; ++i) {
+		if (vbest[i]) {
 			printf("1 ");
 		}
-		else {
+		else
+		{
 			printf("0 ");
 		}
 	}
-	if (vbest[pacchi_size - 1]) {
-		printf("1");
-	}
-	else {
-		printf("0");
-	}
 
+	free(vcurr);
 	free(vbest);
-
-	return;
 }

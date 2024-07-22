@@ -1,7 +1,7 @@
 #include "list.h"
 #include <stdbool.h>
 
-extern bool AnyLoop(const Item* i) {
+bool AnyLoop(const Item* i) {
 
 	const Item* t = i;
 	const Item* l = i;

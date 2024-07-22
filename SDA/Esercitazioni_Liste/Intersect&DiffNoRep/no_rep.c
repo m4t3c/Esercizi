@@ -1,51 +1,49 @@
 #include "list.h"
-#include <stdlib.h>
+
+static bool IsThere(const ElemType* e, const Item* i) {
+	for (const Item* tmp = i; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
+		if (ElemCompare(ListGetHeadValue(tmp), e) == 0) {
+			return true;
+		}
+	}
+
+	return false;
+}
+static bool IsUsed(Item* i, const ElemType* e) {
+	for (Item* tmp = i; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
+		if (ElemCompare(ListGetHeadValue(tmp), e) == 0) {
+			return true;
+		}
+	}
+
+	return false;
+}
 
 Item* IntersectNoRep(const Item* i1, const Item* i2) {
+
 	Item* res = ListCreateEmpty();
 	for (const Item* tmp1 = i1; !ListIsEmpty(tmp1); tmp1 = ListGetTail(tmp1)) {
-		const Item* tmp2 = i2;
-		for (; !ListIsEmpty(tmp2); tmp2 = ListGetTail(tmp2)) {
+		for (const Item* tmp2 = i2; !ListIsEmpty(tmp2); tmp2 = ListGetTail(tmp2)) {
 			if (ElemCompare(ListGetHeadValue(tmp1), ListGetHeadValue(tmp2)) == 0) {
-				break;
-			}	
-		}
-		if (!ListIsEmpty(tmp2)) {
-			const Item* tmp3 = res;
-			for (; !ListIsEmpty(tmp3); tmp3 = ListGetTail(tmp3)) {
-				if (ElemCompare(ListGetHeadValue(tmp1), ListGetHeadValue(tmp3)) == 0) {
-					break;
+				if (!IsUsed(res, ListGetHeadValue(tmp1))) {
+					res = ListInsertBack(res, ListGetHeadValue(tmp1));
 				}
 			}
-			if (ListIsEmpty(tmp3)) {
-				res = ListInsertBack(res, ListGetHeadValue(tmp1));
+		}
+	}
+
+	return res;
+}
+Item* DiffNoRep(const Item* i1, const Item* i2) {
+
+	Item* res = ListCreateEmpty();
+	for (const Item* tmp = i1; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
+		if (!IsThere(ListGetHeadValue(tmp), i2)) {
+			if (!IsUsed(res, ListGetHeadValue(tmp))) {
+				res = ListInsertBack(res, ListGetHeadValue(tmp));
 			}
 		}
 	}
 	
-	return res;
-}
-Item* DiffNoRep(const Item* i1, const Item* i2) {
-	Item* res = ListCreateEmpty();
-	for (const Item* tmp1 = i1; !ListIsEmpty(tmp1); tmp1 = ListGetTail(tmp1)) {
-		const Item* tmp2 = i2;
-		for (; !ListIsEmpty(tmp2); tmp2 = ListGetTail(tmp2)) {
-			if (ElemCompare(ListGetHeadValue(tmp1), ListGetHeadValue(tmp2)) == 0) {
-				break;
-			}
-		}
-		if (ListIsEmpty(tmp2)) {
-			const Item* tmp3 = res;
-			for (; !ListIsEmpty(tmp3); tmp3 = ListGetTail(tmp3)) {
-				if (ElemCompare(ListGetHeadValue(tmp1), ListGetHeadValue(tmp3)) == 0) {
-					break;
-				}
-			}
-			if (ListIsEmpty(tmp3)) {
-				res = ListInsertBack(res, ListGetHeadValue(tmp1));
-			}
-		}
-	}
-
 	return res;
 }

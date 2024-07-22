@@ -1,15 +1,21 @@
 #include "list.h"
 
+bool IsThere(const ElemType* e, const Item* i) {
+
+	for (const Item* tmp = i; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
+		if (ElemCompare(e, ListGetHeadValue(tmp)) == 0) {
+			return true;
+		}
+	}
+	return false;
+}
+
 Item* Diff(const Item* i1, const Item* i2) {
+
 	Item* res = ListCreateEmpty();
 	for (const Item* tmp = i1; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
-		const Item* tmp2 = i2;
-		for (; !ListIsEmpty(tmp2); tmp2 = ListGetTail(tmp2)) {
-			if (ElemCompare(ListGetHeadValue(tmp), ListGetHeadValue(tmp2)) == 0) {
-				break;
-			}
-		}
-		if (ListIsEmpty(tmp2)) {
+
+		if (!IsThere(ListGetHeadValue(tmp), i2)) {
 			res = ListInsertBack(res, ListGetHeadValue(tmp));
 		}
 	}

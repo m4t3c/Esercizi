@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a1f75367-781f-455a-bbdc-84a27a3ce69a}</ProjectGuid>
+    <ProjectGuid>{5bbaffdf-3b48-4851-9324-c97f7fd3e067}</ProjectGuid>
     <RootNamespace>Heapify</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

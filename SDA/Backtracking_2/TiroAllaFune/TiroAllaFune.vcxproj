@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{661894b0-3a71-46a9-9db3-a2a937d034a8}</ProjectGuid>
+    <ProjectGuid>{e31bbb74-7c75-47e7-8f07-7275692ec426}</ProjectGuid>
     <RootNamespace>TiroAllaFune</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="tiroallafune .c" />
+    <ClCompile Include="tiroallafune.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

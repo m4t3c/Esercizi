@@ -1,11 +1,12 @@
 #include "list.h"
 
-extern Item* ListLoad(const char* filename);
+Item* ListLoad(const char* filename);
 
 int main(void) {
 
-	Item* mylist = ListLoad("data_00.txt");
-	ListWriteStdout(mylist);
+	Item* res = ListLoad("data_00.txt");
+	ListWriteStdout(res);
 
+	ListDelete(res);
 	return 0;
 }

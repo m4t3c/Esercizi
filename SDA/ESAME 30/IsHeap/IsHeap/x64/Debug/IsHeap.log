@@ -1,4 +1,0 @@
-﻿  minheap.c
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 30\IsHeap\minheap.c(40,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 30\IsHeap\minheap.c(100,39): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-  IsHeap.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 30\IsHeap\x64\Debug\IsHeap.exe

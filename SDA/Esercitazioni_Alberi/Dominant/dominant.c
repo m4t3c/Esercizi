@@ -1,22 +1,34 @@
 #include "tree.h"
 
-int CountDominantRec(const Node* t) {
-	const ElemType *lv = TreeGetRootValue(TreeLeft(t));
-	const ElemType *rv = TreeGetRootValue(TreeRight(t));
-	if (ElemCompare(TreeGetRootValue(t), *lv + *rv) > 0) {
+static void CountDominantRec(const Node* t, int* count) {
 
+	if (TreeIsLeaf(t)) {
+		return;
 	}
+
+	int sx = 0;
+	int dx = 0;
+
+	if (!TreeIsEmpty(TreeLeft(t))) {
+		sx = t->left->value;
+	}
+	if (!TreeIsEmpty(TreeRight(t))) {
+		dx = t->right->value;
+	}
+
+	if (t->value > sx + dx) {
+		(*count)++;
+	}
+
+	CountDominantRec(TreeLeft(t), count);
+	CountDominantRec(TreeRight(t), count);
 }
 
 int CountDominant(const Node* t) {
 
-	if (t == NULL) {
-		return 0;
-	}
+	int count = 0;
 
-	const Node* tmp = t;
+	CountDominantRec(t, &count);
 
-	int res = CountDominantRec(tmp);
-
-	return res;
+	return count;
 }

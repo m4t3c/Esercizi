@@ -1,21 +1,21 @@
 #include "minheap.h"
 
 void HeapMinMoveDownRec(Heap* h, int i) {
-	
-	int smallest = i;
-	int left = HeapLeft(i);
-	int right = HeapRight(i);
 
-	if ((left < (int)h->size && ElemCompare(HeapGetNodeValue(h, smallest), HeapGetNodeValue(h, left)) > 0)) {
-		smallest = left;
+	int l = HeapLeft(i);
+	int r = HeapRight(i);
+	int smallest = i;
+
+	if (l < (int)h->size && ElemCompare(HeapGetNodeValue(h, smallest), HeapGetNodeValue(h, l)) > 0) {
+		smallest = l;
 	}
 
-	if ((right < (int)h->size && ElemCompare(HeapGetNodeValue(h, smallest), HeapGetNodeValue(h, right)) > 0)) {
-		smallest = right;
+	if (r < (int)h->size && ElemCompare(HeapGetNodeValue(h, smallest), HeapGetNodeValue(h, r)) > 0) {
+		smallest = r;
 	}
 
 	if (smallest != i) {
-		ElemSwap(h->data + i, h->data + smallest);
+		ElemSwap(&h->data[i], &h->data[smallest]);
 		HeapMinMoveDownRec(h, smallest);
 	}
 }

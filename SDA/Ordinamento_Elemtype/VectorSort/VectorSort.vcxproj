@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6b4dbd7f-3303-4cd7-890d-1a77496440b7}</ProjectGuid>
+    <ProjectGuid>{e1226396-2d12-4ce0-9deb-d6838a5116a1}</ProjectGuid>
     <RootNamespace>VectorSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

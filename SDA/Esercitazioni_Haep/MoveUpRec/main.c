@@ -1,28 +1,21 @@
 #include "minheap.h"
-#include <string.h>
-#include <stdlib.h>
-
 
 extern void HeapMinMoveUpRec(Heap* h, int i);
 
-Heap* HeapCreateFromVector(const ElemType* v, size_t size) {
-	Heap* res = HeapCreateEmpty();
-	
-	res->data = malloc(size * sizeof(ElemType));
-	memcpy(res->data, v, size * sizeof(ElemType));
-	res->size = size;
+int main() {
+    Heap* heap = HeapCreateEmpty();
+    ElemType elements[] = { 10, 20, 30, 25, 5, 40, 50 };
+    size_t n_elements = sizeof(elements) / sizeof(elements[0]);
 
-	return res;
-}
+    for (size_t i = 0; i < n_elements; i++) {
+        HeapMinInsertNode(heap, &elements[i]);
+    }
 
-int main(void) {
+    HeapMinMoveUpRec(heap, 4);
 
-	const ElemType vec[] = { 1, 3, 6, 2, 9, 15 };
-	Heap* res = HeapCreateFromVector(vec, 6);
-	HeapWriteStdout(res);
+    HeapWriteStdout(heap);
 
-	HeapMinMoveUpRec(res, 3);
-	HeapWriteStdout(res);
+    HeapDelete(heap);
 
-	return 0;
+    return 0;
 }

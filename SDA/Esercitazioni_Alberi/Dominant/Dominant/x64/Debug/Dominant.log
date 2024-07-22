@@ -1,4 +1,1 @@
 ﻿  dominant.c
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(6,43): warning C4047: 'function': 'const ElemType *' differs in levels of indirection from 'const ElemType'
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(6,43): warning C4024: 'ElemCompare': different types for formal and actual parameter 2
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Alberi\Dominant\dominant.c(9,1): warning C4716: 'CountDominantRec': must return a value
