@@ -1,37 +1,38 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-static bool ParentesiCheck(int n, int* vcurr) {
+static bool Check(bool* vcurr, int n) {
 	int open = 0;
-	int close = 0;
-
+	int closed = 0;
+	
 	for (int i = 0; i < n; ++i) {
 		if (vcurr[i]) {
 			++open;
 		}
 		else
 		{
-			++close;
+			++closed;
 		}
-		if (close > open) {
+
+		if (closed > open) {
 			return false;
 		}
 	}
 
-	if (open == close) {
+	if (open == closed) {
 		return true;
 	}
 	else
 	{
 		return false;
 	}
-
 }
 
-static void ParentesiRec(int n, int i, int cnt, int* vcurr, int* nsol) {
+static void ParentesiRec(int n, int i, int cnt, bool* vcurr, int* nsol) {
+
 	if (cnt == n) {
-		if (ParentesiCheck(n * 2, vcurr)) {
+		if (Check(vcurr, n * 2)) {
 			(*nsol)++;
 			for (int j = 0; j < n * 2; ++j) {
 				if (vcurr[j]) {
@@ -54,9 +55,11 @@ static void ParentesiRec(int n, int i, int cnt, int* vcurr, int* nsol) {
 	ParentesiRec(n, i + 1, cnt + 1, vcurr, nsol);
 	vcurr[i] = 0;
 	ParentesiRec(n, i + 1, cnt, vcurr, nsol);
+
 }
 
 int Parentesi(int n) {
+
 	if (n < 0) {
 		return -1;
 	}
@@ -65,11 +68,11 @@ int Parentesi(int n) {
 		return 0;
 	}
 
-	int* vcurr = calloc(n * 2, sizeof(int));
-	int n_sol = 0;
+	bool* vcurr = calloc(n * 2, sizeof(bool));
+	int nsol = 0;
 
-	ParentesiRec(n, 0, 0, vcurr, &n_sol);
+	ParentesiRec(n, 0, 0, vcurr, &nsol);
+
 	free(vcurr);
-
-	return n_sol;
+	return nsol;
 }

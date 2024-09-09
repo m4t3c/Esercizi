@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fafb4ee3-7acf-4642-a20b-edca88db4536}</ProjectGuid>
+    <ProjectGuid>{706136f5-3d26-4ab1-9a90-c68dc8ba331b}</ProjectGuid>
     <RootNamespace>InsertBST</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -1,8 +1,8 @@
-int Divisione(int a, int b);
+extern int Divisione(int a, int b);
 
-int main() {
+int main(void) {
 
-	int res = Divisione(10, 2);
+	int res = Divisione(15, 5);
 
 	return 0;
 }

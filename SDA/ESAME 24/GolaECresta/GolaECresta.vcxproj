@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ced36b13-b82f-475f-bee7-bb22de12823d}</ProjectGuid>
+    <ProjectGuid>{d97c0e91-f21c-411d-bc20-2726586eac0f}</ProjectGuid>
     <RootNamespace>GolaECresta</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

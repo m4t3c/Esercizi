@@ -1,25 +1,24 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <math.h>
 
 static bool IsHappyRec(int n) {
 
-	if (n == 4 || n == 0) {
-		return false;
-	}
 	if (n == 1) {
 		return true;
 	}
+	if (n == 4 || n == 0) {
+		return false;
+	}
 
 	int sum = 0;
-	while (n != 0)
-	{
+	while (n != 0) {
 		sum += (n % 10) * (n % 10);
 		n /= 10;
 	}
 
 	return IsHappyRec(sum);
-
 }
 
 int main(int argc, char** argv) {
@@ -34,9 +33,9 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	bool res = IsHappyRec(n);
+	bool happyornot = IsHappyRec(n);
 
-	if (res) {
+	if (happyornot) {
 		printf("Felice");
 	}
 	else

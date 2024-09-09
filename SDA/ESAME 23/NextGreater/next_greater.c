@@ -2,40 +2,35 @@
 #include <stdlib.h>
 #include <limits.h>
 
-static size_t ListGetLen(const Item* i) {
-	size_t res = 0;
-
-	while (!ListIsEmpty(i)) {
-		i = ListGetTail(i);
-		++res;
-	}
-	return res;
-}
-
 ElemType* NextGreater(const Item* list, size_t* answer_size) {
-	size_t len = ListGetLen(list);
-	*answer_size = len;
 
-	if (len == 0) {
+	if (ListIsEmpty(list)) {
+		*answer_size = 0;
 		return NULL;
 	}
 
-	ElemType* res = calloc(len, sizeof(ElemType));
-
-	for (size_t i = 0; i < len; ++i) {
+	ElemType* res = malloc(sizeof(ElemType));
+	size_t size = 1;
+	while (!ListIsEmpty(list)) {
 		Item* tmp = list->next;
-		while (!ListIsEmpty(tmp))
-		{
-			if (list->value < tmp->value) {
-				res[i] = tmp->value;
+		for (; !ListIsEmpty(tmp); tmp = ListGetTail(tmp)) {
+			if (ElemCompare(ListGetHeadValue(tmp), ListGetHeadValue(list)) > 0) {
+				res[size - 1] = *ListGetHeadValue(tmp);
+				++size;
+				res = realloc(res, size * sizeof(ElemType));
 				break;
 			}
-			tmp = ListGetTail(tmp);
 		}
 		if (ListIsEmpty(tmp)) {
-			res[i] = INT_MIN;
+			res[size - 1] = INT_MIN;
+			++size;
+			res = realloc(res, size * sizeof(ElemType));
 		}
 		list = ListGetTail(list);
 	}
+
+	--size;
+	res = realloc(res, size * sizeof(ElemType));
+	*answer_size = size;
 	return res;
 }

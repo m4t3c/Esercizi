@@ -2,22 +2,16 @@
 
 int main(void) {
 
-	ElemType arr[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-	size_t size = sizeof(arr) / sizeof(arr[0]);
+	ElemType arr[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+	Item* i = ListCreateEmpty();
 
-	Item* l1 = ListCreateEmpty();
-
-	for (size_t i = 0; i < size; ++i) {
-		l1 = ListInsertBack(l1, arr + i);
+	for (size_t j = 0; j < 9; ++j) {
+		i = ListInsertBack(i, &arr[j]);
 	}
 
-	ListWriteStdout(l1);
-
-	Item* res = Reverse(l1, 7);
-
+	ListWriteStdout(i);
+	Item* res = Reverse(i, 3);
 	ListWriteStdout(res);
-
-	ListDelete(l1);
 
 	return 0;
 }

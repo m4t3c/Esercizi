@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f1c879eb-53da-4065-bf7b-ed4995c0525a}</ProjectGuid>
+    <ProjectGuid>{a33ce91b-d111-42f0-8897-585b0131f60a}</ProjectGuid>
     <RootNamespace>SostituisciSomma</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

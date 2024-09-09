@@ -1,8 +1,8 @@
-int ProdottoNegativi(int a, int b);
+extern int ProdottoNegativi(int a, int b);
 
 int main(void) {
 
-	int res = ProdottoNegativi(4, -5);
+	int res = ProdottoNegativi(-3, -5);
 
 	return 0;
 }

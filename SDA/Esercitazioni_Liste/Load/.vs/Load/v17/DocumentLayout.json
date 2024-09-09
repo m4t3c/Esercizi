@@ -3,21 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C4CDCF2-2679-42E1-A22C-724AA2F0428F}|Load.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C4CDCF2-2679-42E1-A22C-724AA2F0428F}|Load.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9DB1CDAA-9B8C-4A5C-B12E-BFD4872663AD}|Load.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB1CDAA-9B8C-4A5C-B12E-BFD4872663AD}|Load.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C4CDCF2-2679-42E1-A22C-724AA2F0428F}|Load.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7C4CDCF2-2679-42E1-A22C-724AA2F0428F}|Load.vcxproj|solutionrelative:load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9DB1CDAA-9B8C-4A5C-B12E-BFD4872663AD}|Load.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9DB1CDAA-9B8C-4A5C-B12E-BFD4872663AD}|Load.vcxproj|solutionrelative:load.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
+          "DockedWidth": 200,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "load.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\load.c",
               "RelativeToolTip": "load.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T09:46:08.16Z",
+              "WhenOpened": "2024-08-24T08:45:20.167Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Liste\\Load\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-18T09:46:01.189Z",
+              "WhenOpened": "2024-08-24T08:45:16.279Z",
               "EditorCaption": ""
             }
           ]

@@ -3,17 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 22\\SinX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA07C7FD-CA9B-4EE3-85D2-787325B5D7AE}|SinX.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 22\\SinX\\sen_x.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DA07C7FD-CA9B-4EE3-85D2-787325B5D7AE}|SinX.vcxproj|solutionrelative:sen_x.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99F8B3D2-A87C-4D87-9B93-F543E7D855B8}|SinX.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 22\\SinX\\sen_x.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99F8B3D2-A87C-4D87-9B93-F543E7D855B8}|SinX.vcxproj|solutionrelative:sen_x.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "sen_x.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 22\\SinX\\sen_x.c",
               "RelativeToolTip": "sen_x.c",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwCgAAAAAAAAA",
+              "ViewState": "AgIAABAAAAAAAAAAAAAjwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-19T13:44:15.61Z",
+              "WhenOpened": "2024-09-06T15:45:54.719Z",
               "EditorCaption": ""
             }
           ]

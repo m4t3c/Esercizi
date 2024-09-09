@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{310f76c4-a04e-4bd7-a644-440546986bda}</ProjectGuid>
+    <ProjectGuid>{436b83c2-d607-4cac-9d41-bf218627bcfb}</ProjectGuid>
     <RootNamespace>MoveUpRec</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

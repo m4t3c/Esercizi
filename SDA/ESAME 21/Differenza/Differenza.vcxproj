@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{980b09b9-ed95-4bbd-8597-fe4c24d788ab}</ProjectGuid>
+    <ProjectGuid>{141fe767-3272-4cc5-acf7-d96426090711}</ProjectGuid>
     <RootNamespace>Differenza</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

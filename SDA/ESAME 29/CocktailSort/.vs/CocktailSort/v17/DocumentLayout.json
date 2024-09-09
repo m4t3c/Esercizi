@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5739710A-EFA4-4A30-9895-4B47CB0D4BFF}|CocktailSort.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5739710A-EFA4-4A30-9895-4B47CB0D4BFF}|CocktailSort.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{863831C5-3892-4B6F-BEEA-E354781D5691}|CocktailSort.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{863831C5-3892-4B6F-BEEA-E354781D5691}|CocktailSort.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5739710A-EFA4-4A30-9895-4B47CB0D4BFF}|CocktailSort.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\cocktailsort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5739710A-EFA4-4A30-9895-4B47CB0D4BFF}|CocktailSort.vcxproj|solutionrelative:cocktailsort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{863831C5-3892-4B6F-BEEA-E354781D5691}|CocktailSort.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\cocktailsort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{863831C5-3892-4B6F-BEEA-E354781D5691}|CocktailSort.vcxproj|solutionrelative:cocktailsort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "cocktailsort.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\cocktailsort.c",
               "RelativeToolTip": "cocktailsort.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCEAAAAJAAAA",
+              "ViewState": "AgIAABwAAAAAAAAAAAAjwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-22T12:02:21.332Z",
+              "WhenOpened": "2024-09-08T15:20:03.663Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 29\\CocktailSort\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-22T12:02:15.522Z",
+              "WhenOpened": "2024-09-08T15:19:27.014Z",
               "EditorCaption": ""
             }
           ]

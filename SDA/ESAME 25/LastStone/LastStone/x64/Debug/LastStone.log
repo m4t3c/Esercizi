@@ -1,7 +1,1 @@
-﻿  elemtype.c
-  main.c
-  maxheap.c
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 25\LastStone\maxheap.c(40,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 25\LastStone\maxheap.c(100,39): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-  LastStone.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 25\LastStone\x64\Debug\LastStone.exe
+﻿  LastStone.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 25\LastStone\x64\Debug\LastStone.exe

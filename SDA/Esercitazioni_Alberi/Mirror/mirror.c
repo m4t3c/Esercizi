@@ -1,21 +1,45 @@
 #include "tree.h"
 
-static bool TreeIsMirrorRec(const Node* l, const Node* r) {
+static void TreeIsMirrorRec(const Node* l, const Node* r, bool* res) {
+
 	if (TreeIsEmpty(l) && TreeIsEmpty(r)) {
-		return true;
+		return;
 	}
 
-	if ((TreeIsEmpty(l) || TreeIsEmpty(r)) || (ElemCompare(TreeGetRootValue(l), TreeGetRootValue(r)) != 0)) {
-		return false;
+	if (ElemCompare(TreeGetRootValue(l), TreeGetRootValue(r)) != 0) {
+		*res = false;
+		return;
+	}
+	
+	if (!TreeIsEmpty(TreeLeft(l)) && !TreeIsEmpty(TreeRight(r)) || (TreeIsEmpty(TreeLeft(l)) && TreeIsEmpty(TreeRight(r)))) {
+		TreeIsMirrorRec(TreeLeft(l), TreeRight(r), res);
+	}
+	else
+	{
+		*res = false;
+		return;
+	}
+	
+	if (!TreeIsEmpty(TreeRight(l)) && !TreeIsEmpty(TreeLeft(r)) || (TreeIsEmpty(TreeRight(l)) && TreeIsEmpty(TreeLeft(r)))) {
+		TreeIsMirrorRec(TreeRight(l), TreeLeft(r), res);
+	}
+	else
+	{
+		*res = false;
+		return;
 	}
 
-	return TreeIsMirrorRec(TreeLeft(l), TreeRight(r)) && TreeIsMirrorRec(TreeLeft(r), TreeRight(l));
 }
 
 bool TreeIsMirror(const Node* t) {
-	
-	Node* l = TreeLeft(t);
-	Node* r = TreeRight(t);
 
-	return TreeIsMirrorRec(l, r);
+	if (TreeIsEmpty(t) || TreeIsLeaf(t)) {
+		return true;
+	}
+
+	bool res = true;
+
+	TreeIsMirrorRec(TreeLeft(t), TreeRight(t), &res);
+
+	return res;
 }

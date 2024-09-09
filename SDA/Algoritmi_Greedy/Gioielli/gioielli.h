@@ -1,5 +1,7 @@
 #if !defined GIOIELLI_H
 
+#define GIOIELLI_H
+
 #include <stdlib.h>
 
 typedef struct {

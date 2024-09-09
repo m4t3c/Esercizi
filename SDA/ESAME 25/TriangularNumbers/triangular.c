@@ -6,15 +6,14 @@ static int TriangularRec(int n) {
 	if (n == 0) {
 		return 0;
 	}
-	if (n == 1) {
+	else if (n == 1) {
 		return 1;
 	}
-	if (n == 2) {
+	else if (n == 2) {
 		return 3;
 	}
 
-	return 3 * TriangularRec(n - 1) - 3 * TriangularRec(n - 2) + TriangularRec(n - 3);
-
+	return (3 * TriangularRec(n - 1)) - (3 * TriangularRec(n - 2)) + TriangularRec(n - 3);
 }
 
 int main(int argc, char** argv) {
@@ -29,9 +28,8 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	int res = TriangularRec(n);
-
-	printf("%d", res);
+	int tri = TriangularRec(n);
+	printf("%d", tri);
 
 	return 0;
 }

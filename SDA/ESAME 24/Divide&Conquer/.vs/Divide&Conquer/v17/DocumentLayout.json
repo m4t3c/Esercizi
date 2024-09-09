@@ -3,17 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 24\\Divide\u0026Conquer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{964D5E0E-35CE-48D3-8E9F-E69FFA73B282}|Divide\u0026Conquer.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 24\\Divide\u0026Conquer\\dividenconquer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{964D5E0E-35CE-48D3-8E9F-E69FFA73B282}|Divide\u0026Conquer.vcxproj|solutionrelative:dividenconquer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D64E1C5-888C-4266-9215-E3CE22C1BECD}|Divide\u0026Conquer.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 24\\Divide\u0026Conquer\\dividenconquer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D64E1C5-888C-4266-9215-E3CE22C1BECD}|Divide\u0026Conquer.vcxproj|solutionrelative:dividenconquer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "dividenconquer.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 24\\Divide\u0026Conquer\\dividenconquer.c",
               "RelativeToolTip": "dividenconquer.c",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAKAAAA",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-20T20:40:26.346Z",
+              "WhenOpened": "2024-09-07T15:18:14.076Z",
               "EditorCaption": ""
             }
           ]

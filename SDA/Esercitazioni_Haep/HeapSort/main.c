@@ -12,9 +12,7 @@ int main(void) {
 		HeapMinInsertNode(h, arr + i);
 	}
 	HeapWriteStdout(h);
-
 	HeapMinHeapsort(h);
-
 	HeapWriteStdout(h);
 
 	HeapDelete(h);

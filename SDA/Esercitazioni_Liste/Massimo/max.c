@@ -2,15 +2,10 @@
 
 const ElemType* MaxElement(const Item* i) {
 
-	if (ListIsEmpty(i)) {
-		return NULL;
-	}
-
-	const ElemType *res = ListGetHeadValue(i);
-	i = ListGetTail(i);
+	const ElemType* res = NULL;
 	while (!ListIsEmpty(i)) {
-		if (ElemCompare(ListGetHeadValue(i), res) > 0) {
-			res = ListGetHeadValue(i);
+		if (res == NULL || ElemCompare(res, ListGetHeadValue(i)) < 0) {
+			res = &i->value;
 		}
 		i = ListGetTail(i);
 	}

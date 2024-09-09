@@ -21,10 +21,10 @@
     <ClCompile Include="tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="mirror.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mirror.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

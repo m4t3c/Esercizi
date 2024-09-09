@@ -1,18 +1,19 @@
 #include "tree.h"
 
-static void PercorsoSommaRec(Node* t, const ElemType* target, int sum, bool* res) {
-
-	if (sum == *target && TreeIsLeaf(t)) {
+static void PercorsoSommaRec(Node* t, const ElemType* target, bool* res, ElemType sum) {
+	if (ElemCompare(&sum, target) == 0 && TreeIsEmpty(t)) {
 		*res = true;
 		return;
 	}
-	if (TreeIsLeaf(t) || sum > *target) {
+
+	if (*res == true || TreeIsEmpty(t)) {
 		return;
 	}
 
-	PercorsoSommaRec(TreeLeft(t), target, sum + t->left->value, res);
-	PercorsoSommaRec(TreeRight(t), target, sum + t->right->value, res);
+	sum += t->value;
 
+	PercorsoSommaRec(TreeLeft(t), target, res, sum);
+	PercorsoSommaRec(TreeRight(t), target, res, sum);
 }
 
 bool PercorsoSomma(Node* t, const ElemType* target) {
@@ -23,7 +24,7 @@ bool PercorsoSomma(Node* t, const ElemType* target) {
 
 	bool res = false;
 
-	PercorsoSommaRec(t, target, t->value, &res);
+	PercorsoSommaRec(t, target, &res, 0);
 
 	return res;
 }

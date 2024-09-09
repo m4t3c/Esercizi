@@ -5,24 +5,24 @@ static void InvertRec(Node* l, Node* r) {
 	if (TreeIsLeaf(l) && TreeIsLeaf(r)) {
 		return;
 	}
-	if (l->left != NULL && r->right != NULL) {
+
+	if (!TreeIsEmpty(TreeLeft(l)) && !TreeIsEmpty(TreeRight(r))) {
 		InvertRec(TreeLeft(l), TreeRight(r));
 	}
-	if (l->right != NULL && r->left != NULL) {
+
+	if (!TreeIsEmpty(TreeLeft(r)) && !TreeIsEmpty(TreeRight(l))) {
 		InvertRec(TreeRight(l), TreeLeft(r));
 	}
 }
 
-
-
 Node* Invert(Node* t) {
 
 	if (TreeIsEmpty(t)) {
-		return TreeCreateEmpty();
+		return t;
 	}
 
 	Node* res = t;
-	InvertRec(TreeLeft(res), TreeRight(res));
+	InvertRec(TreeLeft(t), TreeRight(t));
 
 	return res;
 }

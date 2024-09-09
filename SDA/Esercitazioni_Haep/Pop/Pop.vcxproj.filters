@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="elemtype.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="minheap.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elemtype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minheap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -18,13 +18,13 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="move_up.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="elemtype.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="minheap.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="move_up.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

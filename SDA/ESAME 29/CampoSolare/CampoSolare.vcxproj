@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6221d5a9-829b-4835-b2e2-7c1981cb450f}</ProjectGuid>
+    <ProjectGuid>{9e7e681f-740c-45ba-8979-c958d5a209c7}</ProjectGuid>
     <RootNamespace>CampoSolare</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

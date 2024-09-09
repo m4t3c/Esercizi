@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6b529b2f-8b3b-479b-a93a-8212a50cd567}</ProjectGuid>
+    <ProjectGuid>{361b3116-73d5-4b5f-8c32-8dacbcbe2c56}</ProjectGuid>
     <RootNamespace>Gemelli</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

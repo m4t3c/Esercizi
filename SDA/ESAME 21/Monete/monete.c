@@ -1,41 +1,51 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-static void CombinaMoneteRec(int b, int i, int size, const int* m, int sum, int* vsol, int* n_sol) {
+static void CombinaMoneteRec(int b, int sum, const int* m, size_t m_size, size_t i, int* vcurr, int* count) {
+
 	if (sum == b) {
-		(*n_sol)++;
-		for (int j = 0; j < size; ++j) {
-			printf("%d ", vsol[j]);
+		(*count)++;
+		for (size_t j = 0; j < m_size; ++j) {
+			if (j == m_size - 1) {
+				printf("%d\n", vcurr[j]);
+			}
+			else
+			{
+				printf("%d ", vcurr[j]);
+			}
 		}
-		printf("\n");
 		return;
 	}
-	if (i == size) {
+	if (i == m_size) {
 		return;
 	}
 
 	for (int j = 0; j <= b; ++j) {
-		vsol[i] = j;
+		vcurr[i] = j;
 		sum += j * m[i];
 
 		if (sum > b) {
-			vsol[i] = 0;
+			vcurr[i] = 0;
 			return;
 		}
 
-		CombinaMoneteRec(b, i + 1, size, m, sum, vsol, n_sol);
-		
+		CombinaMoneteRec(b, sum, m, m_size, i + 1, vcurr, count);
+
 		sum -= j * m[i];
 	}
+
 }
 
 int CombinaMonete(int b, const int* m, size_t m_size) {
 
-	int* vsol = calloc(m_size, sizeof(int));
-	int n_sol = 0;
+	if (b == 0) {
+		return 0;
+	}
+	
+	int* vcurr = calloc(m_size, sizeof(int));
+	int count = 0;
+	CombinaMoneteRec(b, 0, m, m_size, 0, vcurr, &count);
+	free(vcurr);
 
-	CombinaMoneteRec(b, 0, (int)m_size, m, 0, vsol, &n_sol);
-
-	free(vsol);
-	return n_sol;
+	return count;
 }

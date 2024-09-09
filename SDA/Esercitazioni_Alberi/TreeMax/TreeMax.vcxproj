@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e2a2d256-fb14-4e64-b72e-6d149fe108b9}</ProjectGuid>
+    <ProjectGuid>{d41091a3-f3d0-4379-8a0e-5a290eb356ab}</ProjectGuid>
     <RootNamespace>TreeMax</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

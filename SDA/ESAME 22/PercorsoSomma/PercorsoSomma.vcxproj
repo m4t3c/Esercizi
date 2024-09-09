@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{632466f8-2a32-459f-8418-7af22424c360}</ProjectGuid>
+    <ProjectGuid>{2ae6ec67-aa16-4245-92d0-d346b5308bba}</ProjectGuid>
     <RootNamespace>PercorsoSomma</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

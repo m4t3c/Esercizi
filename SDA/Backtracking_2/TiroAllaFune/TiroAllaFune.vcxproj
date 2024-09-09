@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e31bbb74-7c75-47e7-8f07-7275692ec426}</ProjectGuid>
+    <ProjectGuid>{69fba827-fe52-4844-87d9-47b385b58eac}</ProjectGuid>
     <RootNamespace>TiroAllaFune</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

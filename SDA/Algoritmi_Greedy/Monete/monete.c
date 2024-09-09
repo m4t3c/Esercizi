@@ -8,8 +8,9 @@ int* Monete(const int* tagli, size_t tagli_size, int budget) {
 
 	int* res = calloc(tagli_size, sizeof(int));
 	for (size_t i = 0; i < tagli_size; ++i) {
-		res[i] = budget / tagli[i];
-		budget %= tagli[i];
+		int n_max = budget / tagli[i];
+		budget -= n_max * tagli[i];
+		res[i] = n_max;
 	}
 
 	return res;

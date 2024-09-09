@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0573dfb8-a17a-467f-806a-92ab54023e06}</ProjectGuid>
+    <ProjectGuid>{b3b8b569-7af6-40be-b190-4f2a6fc17c3f}</ProjectGuid>
     <RootNamespace>Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mian.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="stacks.c" />
   </ItemGroup>
   <ItemGroup>

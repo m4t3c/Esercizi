@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a4b68911-a80f-41b9-9905-3016ac697c71}</ProjectGuid>
+    <ProjectGuid>{e806c316-6eb1-4aab-add0-bc1a11a0b88c}</ProjectGuid>
     <RootNamespace>Fibonacci</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

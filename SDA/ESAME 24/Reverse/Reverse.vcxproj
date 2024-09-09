@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{22bdd2a0-2d52-401f-be2a-cafcad1bdc18}</ProjectGuid>
+    <ProjectGuid>{6fe293d0-63fb-4d50-a32c-ad057927809c}</ProjectGuid>
     <RootNamespace>Reverse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="elemtype.h" />
-    <ClInclude Include="list.h" />
-    <ClInclude Include="reverse.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="elemtype.c" />
     <ClCompile Include="list.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="reverse.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="elemtype.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="reverse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

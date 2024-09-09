@@ -3,13 +3,13 @@
 const ElemType* MaxElement(const Item* i);
 
 int main(void) {
-
-	ElemType v[] = { 1, 45, 0, 2, 4, 1, 3 };
 	Item* i = ListCreateEmpty();
+	int data[] = { 3, 4, 2, 0, 45, 1, 3 };
 	for (size_t j = 0; j < 7; ++j) {
-		i = ListInsertBack(i, &v[j]);
+		i = ListInsertBack(i, &data[j]);
 	}
-	const ElemType* res = MaxElement(i);
+
+	ElemType* res = MaxElement(i);
 
 	return 0;
 }

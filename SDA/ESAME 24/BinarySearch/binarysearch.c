@@ -1,28 +1,28 @@
 #include <stdlib.h>
 
-static int BinarySearchRec(const int* v, int first, int last, int target) {
+static int BinarySearchRec(const int* v, int first, int last, int value) {
 
 	if (first > last) {
 		return -1;
 	}
 
-	int mid = (first + last) / 2;
-	int middle = v[mid];
-	if (target == middle) {
-		return mid;
+	int middle = (last + first) / 2;
+	int middlev = v[middle];
+
+	if (value == middlev) {
+		return middle;
 	}
-	else if (target > middle) {
-		return BinarySearchRec(v, mid + 1, last, target);
+	else if (middlev < value) {
+		return BinarySearchRec(v, middle + 1, last, value);
 	}
 	else
 	{
-		return BinarySearchRec(v, first, mid - 1, target);
+		return BinarySearchRec(v, first, middle - 1, value);
 	}
-
 }
 
 int BinarySearch(const int* v, size_t v_size, int value) {
-
+	
 	if (v == NULL) {
 		return -1;
 	}

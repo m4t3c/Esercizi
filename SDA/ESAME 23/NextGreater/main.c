@@ -2,22 +2,15 @@
 
 int main(void) {
 
-	ElemType arr[] = { 30, 1, 1, 1, 1, 1, 1, 1, 7, 6, 4, 8, 21, 12, 5, 6 };
-	size_t size = sizeof(arr) / sizeof(arr[0]);
+	ElemType arr[] = { 2, 3, 1, 4, 7, 2 };
 
-	Item* l1 = ListCreateEmpty();
-
-	for (size_t i = 0; i < size; ++i) {
-		l1 = ListInsertBack(l1, arr + i);
+	Item* i = ListCreateEmpty();
+	for (size_t j = 0; j < 6; ++j) {
+		i = ListInsertBack(i, &arr[j]);
 	}
 
-	ListWriteStdout(l1);
-
 	size_t answer_size = 0;
-
-	ElemType* res = NextGreater(l1, &answer_size);
-
-	ListDelete(l1);
+	ElemType* res = NextGreater(i, &answer_size);
 
 	return 0;
 }

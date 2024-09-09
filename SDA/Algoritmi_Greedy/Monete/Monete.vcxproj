@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e496bab3-0cfb-49f7-ac33-8516ab6757bc}</ProjectGuid>
+    <ProjectGuid>{7b1f4f52-c2b5-4599-b612-d3faf64d6d1d}</ProjectGuid>
     <RootNamespace>Monete</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -1,11 +1,10 @@
 #include "reverse.h"
 
-Item* ReverseLinks(Item* list) {
+static Item* ReverseLinks(Item* i) {
 	Item* prev = NULL;
-	Item* curr = list;
+	Item* curr = i;
 
-	while (!ListIsEmpty(curr))
-	{
+	while (!ListIsEmpty(curr)) {
 		Item* next = curr->next;
 		curr->next = prev;
 		prev = curr;
@@ -15,12 +14,12 @@ Item* ReverseLinks(Item* list) {
 	return prev;
 }
 
-int ListGetLen(Item* i) {
+static int ListGetLen(Item* list) {
+
 	int res = 0;
-	while (!ListIsEmpty(i))
-	{
+	while (!ListIsEmpty(list)) {
 		++res;
-		i = ListGetTail(i);
+		list = ListGetTail(list);
 	}
 
 	return res;
@@ -28,22 +27,24 @@ int ListGetLen(Item* i) {
 
 Item* Reverse(Item* list, int right) {
 
-	int len = ListGetLen(list);
-
 	if (right <= 1) {
 		return list;
 	}
+
+	int len = ListGetLen(list);
+	
 	if (right >= len) {
 		return ReverseLinks(list);
 	}
+
 	Item* end = list;
-	for (int i = 1; i < right; ++i) {
+	for (int i = 1; i < right % len; ++i) {
 		end = ListGetTail(end);
 	}
 	Item* tmp = end->next;
 	end->next = NULL;
 	end = ReverseLinks(list);
 	list->next = tmp;
-
+	 
 	return end;
 }

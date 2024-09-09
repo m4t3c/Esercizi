@@ -1,9 +1,12 @@
 #include "sum_dlist.h"
 
-const Item* ListGetLast(const Item* i) {
+static const Item* DlistGetLast(const Item* i) {
+
+	if (DListIsEmpty(i)) {
+		return NULL;
+	}
 
 	const Item* res = i;
-
 	while (res->next != NULL) {
 		res = DListGetTail(res);
 	}
@@ -13,58 +16,55 @@ const Item* ListGetLast(const Item* i) {
 
 Item* DListSum(const Item* i1, const Item* i2) {
 
-	if (DListIsEmpty(i1)) {
-		Item* res = DListCreateEmpty();
-		while (!DListIsEmpty(i2))
-		{
-			res = DListInsertBack(res, DListGetHeadValue(i2));
-			i2 = DListGetTail(i2);
-		}
-		return res;
-	}
-	if (DListIsEmpty(i2)) {
-		Item* res = DListCreateEmpty();
-		while (!DListIsEmpty(i1))
-		{
-			res = DListInsertBack(res, DListGetHeadValue(i1));
-			i1 = DListGetTail(i1);
-		}
-		return res;
+	if (DListIsEmpty(i1) && DListIsEmpty(i2)) {
+		return DListCreateEmpty();
 	}
 
-	i1 = ListGetLast(i1);
-	i2 = ListGetLast(i2);
+	const Item* l1 = DlistGetLast(i1);
+	const Item* l2 = DlistGetLast(i2);
+
+	ElemType v1 = 0;
+	ElemType v2 = 0;
+	ElemType r = 0;
 	Item* res = DListCreateEmpty();
-	ElemType p = 0;
 
-	while (!DListIsEmpty(i1) || !DListIsEmpty(i2))
-	{
-		ElemType a = 0;
-		ElemType b = 0;
-		if (!DListIsEmpty(i1)) {
-			a = i1->value;
+	while (!DListIsEmpty(l1) || !DListIsEmpty(l2)) {
+		if (!DListIsEmpty(l1)) {
+			v1 = l1->value;
 		}
-		if (!DListIsEmpty(i2)) {
-			b = i2->value;
+		else
+		{
+			v1 = 0;
 		}
-		ElemType tmp = a + b + p;
-		p = 0;
-		if (tmp >= 10) {
-			tmp -= 10;
-			p += 1;
+
+		if (!DListIsEmpty(l2)) {
+			v2 = l2->value;
 		}
-		const ElemType num = tmp;
-		res = DListInsertHead(&num, res);
-		if (!DListIsEmpty(i1)) {
-			i1 = DListGetPrev(i1);
+		else
+		{
+			v2 = 0;
 		}
-		if (!DListIsEmpty(i2)) {
-			i2 = DListGetPrev(i2);
+
+		ElemType sum = v1 + v2 + r;
+		r = 0;
+		if (sum >= 10) {
+			r++;
+			sum -= 10;
 		}
+
+		res = DListInsertHead(&sum, res);
+		
+		if (!DListIsEmpty(l1)) {
+			l1 = DListGetPrev(l1);
+		}
+		if (!DListIsEmpty(l2)) {
+			l2 = DListGetPrev(l2);
+		}
+
 	}
 
-	if (p) {
-		res = DListInsertHead(&p, res);
+	if (r == 1) {
+		res = DListInsertHead(&r, res);
 	}
 
 	return res;

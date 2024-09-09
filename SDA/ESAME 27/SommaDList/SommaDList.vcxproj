@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b620281b-96fd-42bb-8151-43e87f579675}</ProjectGuid>
+    <ProjectGuid>{7ae36cc2-af65-4ea7-b4c2-8ec31908c4be}</ProjectGuid>
     <RootNamespace>SommaDList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

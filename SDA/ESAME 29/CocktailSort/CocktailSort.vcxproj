@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5739710a-efa4-4a30-9895-4b47cb0d4bff}</ProjectGuid>
+    <ProjectGuid>{863831c5-3892-4b6f-beea-e354781d5691}</ProjectGuid>
     <RootNamespace>CocktailSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

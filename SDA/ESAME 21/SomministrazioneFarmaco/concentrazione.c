@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-static void ConcentrazioneRec(int n, double* c) {
-	if (n == 1) {
+static void ConcentrazioneRec(int n, double c, int i) {
+
+	if (i == n) {
+		printf("%lf", c);
 		return;
 	}
 
-	*c = (0.3 * (*c)) + 0.2;
-	ConcentrazioneRec(n - 1, c);
+	ConcentrazioneRec(n, 0.3 * c + 0.2, i + 1);
 }
 
 int main(int argc, char** argv) {
@@ -22,9 +23,7 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	double c = 0;
-	ConcentrazioneRec(n, &c);
-	printf("%lf", c);
+	ConcentrazioneRec(n, 0, 1);
 
 	return 0;
 }

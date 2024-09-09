@@ -16,21 +16,24 @@ void Pop(Heap* h, ElemType* popped) {
 
 int LastStoneWeight(Heap* h) {
 
-    while (!HeapIsEmpty(h))
-    {
-        ElemType y = 0;
+    ElemType x = 0;
+    ElemType y = 0;
+
+    while (h->size > 1) {
         Pop(h, &y);
-        ElemType x = 0;
         Pop(h, &x);
-        if (x != y) {
-            ElemType diff = y - x;
-            HeapMaxInsertNode(h, &diff);
-        }
-        if (h->size == 1) {
-            int res = *h->data;
-            return res;
+
+        if (ElemCompare(&x, &y) != 0) {
+            ElemType tmp = y - x;
+            HeapMaxInsertNode(h, &tmp);
         }
     }
 
-    return 0;
+    if (h->size == 1) {
+        return h->data[0];
+    }
+    else
+    {
+        return 0;
+    }
 }

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ba881a9d-6220-4e3c-a93e-3c83544ef64d}</ProjectGuid>
+    <ProjectGuid>{21e53530-b6a0-4843-9a60-8f7a7d00aa3b}</ProjectGuid>
     <RootNamespace>ProdottoNegativi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

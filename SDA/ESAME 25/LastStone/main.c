@@ -4,13 +4,13 @@ extern int LastStoneWeight(Heap* h);
 
 int main(void) {
 
+	ElemType arr[] = { 77, 21, 18 };
 	Heap* h = HeapCreateEmpty();
-	ElemType v[] = { 77, 21, 18 };
 	for (size_t i = 0; i < 3; ++i) {
-		HeapMaxInsertNode(h, &v[i]);
+		HeapMaxInsertNode(h, &arr[i]);
 	}
-	
-	int res = LastStoneWeight(h);
 
+	int res = LastStoneWeight(h);
+	
 	return 0;
 }

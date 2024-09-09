@@ -1,19 +1,26 @@
 #include <stdlib.h>
-#include <stdbool.h>
 #include <stdio.h>
 
-static bool Power4Rec(int n, int* x) {
-	if (n == 1) {
-		return true;
-	}
-	if (n % 4 != 0 || n == 0) {
-		return false;
+static void Power4Rec(int n, int x, int prod) {
+
+	if (prod > n) {
+		printf("!p4");
+		return;
 	}
 
-	(*x)++;
-	n /= 4;
+	if (prod == n) {
+		printf("4^%d = %d", x, n);
+		return;
+	}
 
-	return Power4Rec(n, x);
+	if (prod == 1) {
+		prod = 4;
+		Power4Rec(n, x + 1, prod);
+	}
+	else
+	{
+		Power4Rec(n, x + 1, prod * 4);
+	}
 }
 
 int main(int argc, char** argv) {
@@ -28,14 +35,7 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	int x = 0;
-	if (Power4Rec(n, &x)) {
-		printf("4^%d = %d", x, n);
-	}
-	else
-	{
-		printf("!p4");
-	}
-	
+	Power4Rec(n, 0, 1);
+
 	return 0;
 }

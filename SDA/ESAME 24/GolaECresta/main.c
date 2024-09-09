@@ -4,7 +4,7 @@ extern void GolaCresta(size_t n);
 
 int main(void) {
 
-	GolaCresta(5);
+	GolaCresta(4);
 
 	return 0;
 }

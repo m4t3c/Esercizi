@@ -1,17 +1,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-extern int* SolarCut(int A, size_t* sol_size) {
+int* SolarCut(int A, size_t* sol_size) {
 
 	int* res = NULL;
 	size_t size = 0;
-	while (A > 0)
-	{
-		int val = (int)sqrt(A);
-		A -= val * val;
+
+	while (A != 0) {
 		++size;
 		res = realloc(res, size * sizeof(int));
-		res[size - 1] = val * val;
+		int rad = (int)sqrt(A);
+		res[size - 1] = rad * rad;
+		A -= rad * rad;
 	}
 
 	*sol_size = size;

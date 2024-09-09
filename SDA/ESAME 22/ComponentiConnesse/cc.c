@@ -5,28 +5,28 @@ int ComponentiConnesse(const Item* i, const ElemType* v, size_t v_size) {
 	int  connesse = 0;
 	bool in = false;
 
-	while (!ListIsEmpty(i))	{
+	while (!ListIsEmpty(i)) {
 
 		ElemType tmp = i->value;
 		bool found = false;
-		for (size_t i = 0; i < v_size; i++)	{
-			if (tmp == v[i]) {
-				found = true;
+		for (size_t j = 0; j < v_size; ++j) {
+			if (ElemCompare(&tmp, &v[j]) == 0) {
 				in = true;
+				found = true;
 				break;
 			}
 		}
 
-		if (in == true && found == false) { //quando viene interrotta la streak di elementi presenti sia nella lista che nel vettore
-			connesse++;
+		if (in == true && found == false) {
+			++connesse;
 			in = false;
 		}
 
 		i = ListGetTail(i);
 	}
 
-	if (in == true) { //se la lista finisce e sono ancora in streak di elementi consecutivi
-		connesse++;
+	if (in == true) {
+		++connesse;
 	}
 
 	return connesse;

@@ -1,24 +1,11 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 extern void BrickSort(int* v, size_t v_size);
 
 int main(void) {
 
-	int arr[] = { 9, 8, 7, 6, 5, 4 };
-	int size = sizeof(arr) / sizeof(arr[0]);
-
-	for (int i = 0; i < size; ++i) {
-		printf("%d ", arr[i]);
-	}
-	printf("\n\n");
-
-	BrickSort(arr, (size_t)size);
-
-	for (int i = 0; i < size; ++i) {
-		printf("%d ", arr[i]);
-	}
-	printf("\n\n");
+	int v[] = { 4, 32, 2, 8, 6, 77, 0, 12 };
+	BrickSort(v, 8);
 
 	return 0;
 }

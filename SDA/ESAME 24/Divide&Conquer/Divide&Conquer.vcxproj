@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{964d5e0e-35ce-48d3-8e9f-e69ffa73b282}</ProjectGuid>
+    <ProjectGuid>{9d64e1c5-888c-4266-9215-e3ce22c1becd}</ProjectGuid>
     <RootNamespace>DivideConquer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

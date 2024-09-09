@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{da07c7fd-ca9b-4ee3-85d2-787325b5d7ae}</ProjectGuid>
+    <ProjectGuid>{99f8b3d2-a87c-4d87-9b93-f543e7d855b8}</ProjectGuid>
     <RootNamespace>SinX</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

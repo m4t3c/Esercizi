@@ -1,19 +1,17 @@
-int DivisioneRec(int a, int b) {
+static int DivisioneRec(int a, int b) {
 
 	if (b > a) {
 		return 0;
 	}
 
 	return 1 + DivisioneRec(a - b, b);
-
 }
 
 int Divisione(int a, int b) {
 
-	if (a < 0 || b <= 0 ) {
+	if (b == 0 || b < 0 || a < 0) {
 		return -1;
 	}
-	
-	return DivisioneRec(a, b);
 
+	return DivisioneRec(a, b);
 }

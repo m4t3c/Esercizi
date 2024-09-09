@@ -3,17 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_2\\TiroAllaFune\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E31BBB74-7C75-47E7-8F07-7275692EC426}|TiroAllaFune.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_2\\TiroAllaFune\\tiroallafune.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E31BBB74-7C75-47E7-8F07-7275692EC426}|TiroAllaFune.vcxproj|solutionrelative:tiroallafune.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{69FBA827-FE52-4844-87D9-47B385B58EAC}|TiroAllaFune.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_2\\TiroAllaFune\\tiroallafune.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69FBA827-FE52-4844-87D9-47B385B58EAC}|TiroAllaFune.vcxproj|solutionrelative:tiroallafune.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "tiroallafune.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_2\\TiroAllaFune\\tiroallafune.c",
               "RelativeToolTip": "tiroallafune.c",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAADwAAAAUAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-17T19:22:45.161Z",
+              "WhenOpened": "2024-08-21T12:07:06.79Z",
               "EditorCaption": ""
             }
           ]

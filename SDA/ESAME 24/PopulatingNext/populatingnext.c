@@ -1,21 +1,21 @@
 #include "tree.h"
 
 static void PopulatingNextRec(Node* t, Node** prev) {
+
 	if (TreeIsEmpty(t)) {
 		return;
 	}
 
-	PopulatingNextRec(TreeLeft(t), prev);
+	PopulatingNextRec(t->left, prev);
 	if (*prev != NULL) {
 		(*prev)->next = t;
 	}
-	*prev = t;
+	(*prev) = t;
 
-	PopulatingNextRec(TreeRight(t), prev);
+	PopulatingNextRec(t->right, prev);
 }
 
 void PopulatingNext(Node* t) {
-
 	Node* prev = NULL;
 	PopulatingNextRec(t, &prev);
 }

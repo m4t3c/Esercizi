@@ -3,21 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E7E479A-253F-489D-82ED-E7F955F79333}|Ombrelloni.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\ombrelloni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5E7E479A-253F-489D-82ED-E7F955F79333}|Ombrelloni.vcxproj|solutionrelative:ombrelloni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4029FCDB-A2F9-476C-A9B3-CFC7483C2EFF}|Ombrelloni.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\ombrelloni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4029FCDB-A2F9-476C-A9B3-CFC7483C2EFF}|Ombrelloni.vcxproj|solutionrelative:ombrelloni.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E7E479A-253F-489D-82ED-E7F955F79333}|Ombrelloni.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5E7E479A-253F-489D-82ED-E7F955F79333}|Ombrelloni.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4029FCDB-A2F9-476C-A9B3-CFC7483C2EFF}|Ombrelloni.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4029FCDB-A2F9-476C-A9B3-CFC7483C2EFF}|Ombrelloni.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "ombrelloni.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\ombrelloni.c",
               "RelativeToolTip": "ombrelloni.c",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-17T14:37:58.857Z",
+              "WhenOpened": "2024-08-20T22:11:50.53Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Backtracking_1\\Ombrelloni\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-17T14:37:53.88Z",
+              "WhenOpened": "2024-08-20T22:11:46.183Z",
               "EditorCaption": ""
             }
           ]

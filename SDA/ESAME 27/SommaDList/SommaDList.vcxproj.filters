@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sum_dlist.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="doublelist.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -27,15 +24,18 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sum_dlist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sum_dlist.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="doublelist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="elemtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sum_dlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

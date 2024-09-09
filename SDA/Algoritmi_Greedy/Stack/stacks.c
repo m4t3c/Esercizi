@@ -1,46 +1,51 @@
 #include "stacks.h"
 #include <stdbool.h>
 
-bool StacksCompare(unsigned* sum, size_t n) {
-
-	for (size_t i = 1; i < n; ++i) {
-		if (sum[0] != sum[i]) {
+static bool StackCompare(unsigned* sums, size_t n) {
+	for (size_t i = 0; i < n; ++i) {
+		if (sums[0] != sums[i]) {
 			return false;
 		}
 	}
+
 	return true;
 }
 
-size_t FindMaxPos(unsigned* v, size_t n) {
-
-	size_t max_pos = 0;
+static size_t FindMaxPos(unsigned* sums, size_t n) {
+	size_t best = 0;
 	for (size_t i = 1; i < n; ++i) {
-		if (v[i] > v[max_pos]) {
-			max_pos = i;
+		if (sums[best] < sums[i]) {
+			best = i;
 		}
 	}
 
-	return max_pos;
+	return best;
+}
+
+static unsigned Sum(Stack stacks) {
+	unsigned res = 0;
+	for (size_t i = 0; i < stacks.m; ++i) {
+		res += stacks.elements[i];
+	}
+
+	return res;
 }
 
 unsigned MaxSumNStack(Stack* stacks, size_t n) {
 
-	unsigned* sum = calloc(n, sizeof(unsigned));
-
+	unsigned* sums = malloc(n * sizeof(unsigned));
 	for (size_t i = 0; i < n; ++i) {
-		for (size_t j = 0; j < stacks[i].m; ++j) {
-			sum[i] += stacks[i].elements[j];
-		}
+		sums[i] = Sum(stacks[i]);
 	}
 
-	size_t i = 0;
-	while (!StacksCompare(sum, n))
-	{
-		i = FindMaxPos(sum, n);
-		sum[i] -= stacks[i].elements[stacks[i].m - 1];
-		stacks[i].m--;
+	while (!StackCompare(sums, n)) {
+		size_t best = FindMaxPos(sums, n);
+		sums[best] -= stacks[best].elements[stacks[best].m - 1];
+		stacks[best].m--;
 	}
-	unsigned res = sum[0];
-	free(sum);
+
+	unsigned res = sums[0];
+	free(sums);
+
 	return res;
 }

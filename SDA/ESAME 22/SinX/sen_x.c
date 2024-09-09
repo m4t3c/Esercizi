@@ -2,25 +2,25 @@
 #include <math.h>
 #include <stdio.h>
 
-double Fact(double x) {
-
-	if (x == 1 || x == 0) {
+static double Fact(double x) {
+	if (x == 0 || x == 1) {
 		return 1;
 	}
 
 	return x * Fact(x - 1);
 }
 
-double SinXRec(double x, double i) {
-
-	if (i == 0) {
-		return ((pow(-1, i) / fabs(2 * i + 1)) * pow(x, 2 * i + 1));
+static void SinXRec(double x, double sin, double i, double n) {
+	if (n > i) {
+		printf("%lf", sin);
+		return;
 	}
 
-	return ((pow(-1, i) / Fact((2*i) + 1)) * pow(x, 2 * i + 1)) + SinXRec(x, i - 1);
-
+	double fact = Fact(2 * n + 1);
+	sin += (pow(-1, n) / fact) * pow(x, 2 * n + 1);
+	
+	SinXRec(x, sin, i, n + 1);
 }
-
 
 int main(int argc, char** argv) {
 
@@ -28,16 +28,17 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	char* endptr = 0;
+	char* endptr;
 	double x = strtod(argv[1], &endptr);
+	if (*endptr != 0) {
+		return 1;
+	}
+
 	double i = strtod(argv[2], &endptr);
 	if (i < 0 || *endptr != 0) {
 		return 1;
 	}
-		
-	double res = SinXRec(x, i);
 
-	printf("%lf", res);
+	SinXRec(x, 0, i, 0);
 
-	return 0;
 }

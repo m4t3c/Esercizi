@@ -18,10 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="elemtype.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="minheap.c" />
+    <ClCompile Include="pop.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="elemtype.h" />
+    <ClInclude Include="minheap.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8e22bec8-97de-4f5d-9f29-2b09ed12c316}</ProjectGuid>
+    <ProjectGuid>{7f25ddf0-3f94-4525-92c1-96ff9ba6be08}</ProjectGuid>
     <RootNamespace>Pop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -126,16 +136,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="elemtype.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="minheap.c" />
-    <ClCompile Include="pop.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="elemtype.h" />
-    <ClInclude Include="minheap.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6d7cb933-7e99-4716-bc17-a42657b95a7e}</ProjectGuid>
+    <ProjectGuid>{8ec5c974-aced-40b4-8b63-056d300ff82f}</ProjectGuid>
     <RootNamespace>BrickSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

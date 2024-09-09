@@ -3,40 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\move_down.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|solutionrelative:move_down.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{84D611B1-386E-4838-843E-29631A098A7E}|MoveDownRec.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\move_down.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84D611B1-386E-4838-843E-29631A098A7E}|MoveDownRec.vcxproj|solutionrelative:move_down.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\minheap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68E7D471-95D1-4E73-A471-947632A9F094}|MoveDownRec.vcxproj|solutionrelative:minheap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{84D611B1-386E-4838-843E-29631A098A7E}|MoveDownRec.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84D611B1-386E-4838-843E-29631A098A7E}|MoveDownRec.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 228,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "minheap.c",
-              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\minheap.c",
-              "RelativeDocumentMoniker": "minheap.c",
-              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\minheap.c",
-              "RelativeToolTip": "minheap.c",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-19T08:21:28.254Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,9 +28,9 @@
               "RelativeDocumentMoniker": "move_down.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\move_down.c",
               "RelativeToolTip": "move_down.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-19T08:01:55.546Z",
+              "WhenOpened": "2024-08-26T16:09:44.402Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +41,9 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\Esercitazioni_Haep\\MoveDownRec\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-19T08:01:44.91Z",
+              "WhenOpened": "2024-08-26T16:09:32.966Z",
               "EditorCaption": ""
             }
           ]

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8c4c4a3b-21d3-49ca-bcb3-83e60252a2fa}</ProjectGuid>
+    <ProjectGuid>{5a699486-42b8-444f-bad0-57d54e4010da}</ProjectGuid>
     <RootNamespace>DivisioneNegativi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

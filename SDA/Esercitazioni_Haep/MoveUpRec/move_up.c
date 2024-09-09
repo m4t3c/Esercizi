@@ -1,4 +1,5 @@
 #include "minheap.h"
+#include <stdlib.h>
 
 void HeapMinMoveUpRec(Heap* h, int i) {
 
@@ -6,7 +7,7 @@ void HeapMinMoveUpRec(Heap* h, int i) {
 		return;
 	}
 
-	ElemSwap(HeapGetNodeValue(h, i), HeapGetNodeValue(h, HeapParent(i)));
+	ElemSwap(HeapGetNodeValue(h, HeapParent(i)), HeapGetNodeValue(h, i));
 	i = HeapParent(i);
 
 	HeapMinMoveUpRec(h, i);

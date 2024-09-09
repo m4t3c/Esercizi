@@ -15,14 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="minheap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="elemtype.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="elemtype.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -35,5 +27,13 @@
     <ClCompile Include="move_down.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="elemtype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minheap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

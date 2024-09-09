@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{35adc454-6771-4fec-917f-609c1af57d9d}</ProjectGuid>
+    <ProjectGuid>{01f369e0-7012-4123-bd17-2a78b39331da}</ProjectGuid>
     <RootNamespace>MergeTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

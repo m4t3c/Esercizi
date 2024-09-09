@@ -1,17 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "list.h"
 
 Item* ListLoad(const char* filename) {
 
+	Item* res = ListCreateEmpty();
 	FILE* f = fopen(filename, "r");
 	if (f == NULL) {
-		return ListCreateEmpty();
+		return res;
 	}
 
-	Item* res = ListCreateEmpty();
-	ElemType e;
-	while (ElemRead(f, &e) != EOF)
-	{
-		res = ListInsertHead(&e, res);
+	int n = 0;
+	while (fscanf(f, "%d ", &n) == 1) {
+		res = ListInsertHead(&n, res);
 	}
 
 	fclose(f);

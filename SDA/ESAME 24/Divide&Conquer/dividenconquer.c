@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-static int DivideNConquer(int n) {
+static int DivideConquerRec(int n) {
 
 	if (n == 0) {
 		return 0;
@@ -11,7 +11,7 @@ static int DivideNConquer(int n) {
 		return 1;
 	}
 
-	return DivideNConquer(n / 2) + DivideNConquer(n - n / 2) + n;
+	return DivideConquerRec(n / 2) + DivideConquerRec(n - (n / 2)) + n;
 }
 
 int main(int argc, char** argv) {
@@ -22,11 +22,12 @@ int main(int argc, char** argv) {
 
 	char* endptr;
 	int n = strtol(argv[1], &endptr, 10);
+
 	if (n < 0 || *endptr != 0) {
 		return 1;
 	}
 	
-	int res = DivideNConquer(n);
+	int res = DivideConquerRec(n);
 	printf("%d", res);
 
 	return 0;

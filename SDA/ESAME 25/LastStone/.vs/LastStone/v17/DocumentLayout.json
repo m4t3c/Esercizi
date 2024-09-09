@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{344032B0-D270-4612-B0B1-AB8E942F5C99}|LastStone.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{344032B0-D270-4612-B0B1-AB8E942F5C99}|LastStone.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{84B02460-BF96-44B9-B4FB-54DAEA47A77E}|LastStone.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84B02460-BF96-44B9-B4FB-54DAEA47A77E}|LastStone.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{344032B0-D270-4612-B0B1-AB8E942F5C99}|LastStone.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\stones.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{344032B0-D270-4612-B0B1-AB8E942F5C99}|LastStone.vcxproj|solutionrelative:stones.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{84B02460-BF96-44B9-B4FB-54DAEA47A77E}|LastStone.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\stones.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84B02460-BF96-44B9-B4FB-54DAEA47A77E}|LastStone.vcxproj|solutionrelative:stones.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "RelativeDocumentMoniker": "stones.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\stones.c",
               "RelativeToolTip": "stones.c",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwCMAAAAAAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-21T10:24:46.187Z",
+              "WhenOpened": "2024-09-08T13:13:48.325Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\SDA\\ESAME 25\\LastStone\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-21T10:24:41.381Z",
+              "WhenOpened": "2024-09-08T13:13:25.849Z",
               "EditorCaption": ""
             }
           ]

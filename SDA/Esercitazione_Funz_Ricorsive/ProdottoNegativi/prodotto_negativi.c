@@ -1,5 +1,6 @@
 #include <math.h>
-int ProdottoNegativiRec(int a, int b) {
+
+static int ProdottoNegativiRec(int a, int b) {
 
 	if (b == 1) {
 		return a;
@@ -9,7 +10,6 @@ int ProdottoNegativiRec(int a, int b) {
 }
 
 int ProdottoNegativi(int a, int b) {
-
 	if (a == 0 || b == 0) {
 		return 0;
 	}

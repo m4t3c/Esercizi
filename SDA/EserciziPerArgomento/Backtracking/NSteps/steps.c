@@ -4,13 +4,12 @@
 static void StepsRec(int n, int i, int* vcurr, int* nsol) {
 
 	if (n == 0) {
+		(*nsol)++;
 		printf("[");
 		for (int j = 0; j < i - 1; ++j) {
-			printf("%i, ", vcurr[j]);
+			printf("%d, ", vcurr[j]);
 		}
-		printf("%i], ", vcurr[i - 1]);
-		(*nsol)++;
-		return;
+		printf("%d], ", vcurr[i - 1]);
 	}
 
 	for (int j = 1; j <= 3; ++j) {

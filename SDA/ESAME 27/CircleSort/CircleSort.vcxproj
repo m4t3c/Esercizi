@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ac855423-651c-4554-a2e8-20ddfdc60eec}</ProjectGuid>
+    <ProjectGuid>{314d6113-403d-4221-a699-56ff8c489895}</ProjectGuid>
     <RootNamespace>CircleSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
