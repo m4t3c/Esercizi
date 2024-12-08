@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{320D5195-8B35-46CB-B907-5B1A7E898F52}|Cerca.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{320D5195-8B35-46CB-B907-5B1A7E898F52}|Cerca.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320D5195-8B35-46CB-B907-5B1A7E898F52}|Cerca.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\cerca.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{320D5195-8B35-46CB-B907-5B1A7E898F52}|Cerca.vcxproj|solutionrelative:cerca.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cerca.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\cerca.c",
+              "RelativeDocumentMoniker": "cerca.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\cerca.c",
+              "RelativeToolTip": "cerca.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-09T09:30:44.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 4\\Cerca\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-09T09:30:40.177Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

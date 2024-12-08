@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{498A92AA-09D1-4A69-AF5B-B1BA1BF4D700}|Inverti_Cifre.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\inverti.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{498A92AA-09D1-4A69-AF5B-B1BA1BF4D700}|Inverti_Cifre.vcxproj|solutionrelative:inverti.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{498A92AA-09D1-4A69-AF5B-B1BA1BF4D700}|Inverti_Cifre.vcxproj|C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{498A92AA-09D1-4A69-AF5B-B1BA1BF4D700}|Inverti_Cifre.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inverti.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\inverti.c",
+              "RelativeDocumentMoniker": "inverti.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\inverti.c",
+              "RelativeToolTip": "inverti.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-18T17:33:38.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\Matteo\\Desktop\\UNIVERSIT\u00C0\\Progetti\\Esercizi\\C\\ESAME 1\\Inverti_Cifre\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-18T17:33:34.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

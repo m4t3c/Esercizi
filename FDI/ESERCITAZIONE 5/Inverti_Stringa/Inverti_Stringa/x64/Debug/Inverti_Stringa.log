@@ -1,0 +1,2 @@
+﻿  invertstring.c
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\C\ESERCITAZIONE 5\Inverti_Stringa\invertstring.c(11,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
