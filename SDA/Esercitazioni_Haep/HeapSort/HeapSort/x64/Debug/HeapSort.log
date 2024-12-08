@@ -1,0 +1,7 @@
+﻿  elemtype.c
+  main.c
+  minheap.c
+  Generating Code...
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Haep\HeapSort\minheap.c(40,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Haep\HeapSort\minheap.c(100,39): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  HeapSort.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Haep\HeapSort\x64\Debug\HeapSort.exe

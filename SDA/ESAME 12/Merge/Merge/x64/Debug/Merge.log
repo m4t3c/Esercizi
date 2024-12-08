@@ -1,0 +1,6 @@
+﻿  elemtype.c
+  minheap.c
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 12\Merge\minheap.c(40,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 12\Merge\minheap.c(100,39): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Merge.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 12\Merge\x64\Debug\Merge.exe

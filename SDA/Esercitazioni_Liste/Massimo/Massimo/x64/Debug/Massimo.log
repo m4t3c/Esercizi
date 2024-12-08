@@ -1,0 +1,6 @@
+﻿  elemtype.c
+  list.c
+  main.c
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Liste\Massimo\main.c(12,12): warning C4090: 'initializing': different 'const' qualifiers
+  Generating Code...
+  Massimo.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\Esercitazioni_Liste\Massimo\x64\Debug\Massimo.exe

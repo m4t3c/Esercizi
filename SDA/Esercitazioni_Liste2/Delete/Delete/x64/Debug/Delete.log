@@ -1,0 +1,5 @@
+﻿  address_book.c
+  main.c
+  Generating Code...
+C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Liste2\Delete\address_book.c(22,1): warning C4715: 'Delete': not all control paths return a value
+  Delete.vcxproj -> C:\Users\Administrator\OneDrive\Desktop\Università\Programmi\Esercizi\SDA\Esercitazioni_Liste2\Delete\x64\Debug\Delete.exe

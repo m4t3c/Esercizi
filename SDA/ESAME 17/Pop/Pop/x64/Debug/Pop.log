@@ -1,0 +1,6 @@
+﻿  elemtype.c
+  minheap.c
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 17\Pop\minheap.c(40,30): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 17\Pop\minheap.c(100,39): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Pop.vcxproj -> C:\Users\Matteo\Desktop\UNIVERSITÀ\Progetti\Esercizi\SDA\ESAME 17\Pop\x64\Debug\Pop.exe
